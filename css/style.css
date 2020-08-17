@@ -305,9 +305,8 @@ img {
   display: none;
 }
 
-
 @media (max-width: 768px) {
-  body.lock{
+  body.lock {
     overflow: hidden;
   }
   .container {
@@ -375,10 +374,10 @@ img {
   }
 
   /* registration__menu */
-  .registration__menu{
+  .registration__menu {
     flex: 1 3 100px;
   }
-  .heder__logo{
+  .heder__logo {
     flex: 1 1 100px;
   }
 
@@ -439,5 +438,100 @@ img {
   }
   .signUp__icons-wrapper {
     justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .collection__items-img {
+    max-width: 100%;
+    height: 340px;
+  }
+
+  .signUp__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .collection__items-img {
+    max-width: 100%;
+    min-height: 362px;
+  }
+
+  .signUp__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 400px;
+    padding-top: 0px;
+  }
+  .collection__items-img {
+    max-width: 100%;
+    min-height: 362px;
+  }
+  .collection__btn {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+  .collection__items {
+    margin-bottom: 0;
+  }
+  .gallery {
+    margin-bottom: 20px;
+  }
+  .gallery__title {
+    font-size: 1rem;
+  }
+  .gallery__img {
+    height: 176px;
+  }
+  .bracelet__btn-1 {
+    top: 52%;
+    padding: 5px 10px;
+    font-size: 0.6rem;
+  }
+  .bracelet__btn-2 {
+    top: 19%;
+    padding: 3px 5px;
+    font-size: 0.5rem;
+  }
+  .bracelet__btn-3 {
+    top: 80%;
+    padding: 3px 5px;
+    font-size: 0.5rem;
+    white-space: nowrap;
+  }
+  .bracelet__btn-4 {
+    top: 61%;
+    padding: 5px 10px;
+    font-size: 0.6rem;
+  }
+  .bracelet__images-wrapper {
+    margin-bottom: 20px;
+  }
+  .instagram__title {
+    font-size: 0.9rem;
+  }
+  .instagram__slider-img {
+    height: 180px;
+    margin-right: 2px;
+  }
+  .instagram {
+    margin-bottom: 40px;
+  }
+  .registration__menu-item {
+    display: none;
+  }
+  .header__logo-link {
+    font-size: 1.5rem;
+  }
+  .signUp__wrapper {
+    flex-direction: column;
+  }
+  .sukamto {
+    text-align: center;
   }
 }
