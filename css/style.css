@@ -355,6 +355,7 @@ img {
     display: none;
   }
   .menu {
+    overflow: auto;
     position: fixed;
     top: -100%;
     left: 0;
@@ -532,6 +533,7 @@ img {
     width: 70%;
   }
   .menu {
+    overflow: auto;
     height: 100%;
   }
 }
