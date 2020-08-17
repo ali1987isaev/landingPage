@@ -309,9 +309,15 @@ img {
   body.lock {
     overflow: hidden;
   }
+  .header__burger{
+    margin-right: 50px;
+  }
   .container {
     padding-top: 7px;
     max-width: 768px;
+  }
+  .header__navigation {
+    padding: 0 6px;
   }
   .header__burger {
     display: block;
@@ -444,6 +450,9 @@ img {
     max-width: 650px;
     padding-top: 58px;
   }
+  .header__burger{
+    margin-right: 40px;
+  }
   .collection {
     margin-bottom: 80px;
   }
@@ -530,6 +539,12 @@ img {
 @media (max-width: 550px) {
   body.lock {
     overflow: hidden;
+  }
+  .header__burger{
+    margin-right: 30px;
+  }
+  .registration__menu-container a:nth-child(3){
+    display: none;
   }
   .container {
     max-width: 550px;
@@ -624,6 +639,12 @@ img {
 @media (max-width: 400px) {
   body.lock {
     overflow: hidden;
+  } 
+  .registration__menu-container a:nth-child(3){
+    display: block;
+  }
+  .header__burger{
+    margin-right: 30px;
   }
   .container {
     max-width: 400px;
@@ -718,6 +739,9 @@ img {
 @media (max-width: 320px) {
   body.lock {
     overflow: hidden;
+  }
+  .header__burger{
+    margin-right: 20px;
   }
   .container {
     max-width: 400px;
